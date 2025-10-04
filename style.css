@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+ background-color:gray;
+  margin: 0;
+  padding: 20px;
+  color: #f5f5f5;
+  
+  
+}
+header{
+border:7px solid black;
+border-radius:17px;
+}
+main{
+    position:absolute;
+  display:flex;
+  justify-content:space-around;
+}
+h1 {
+  text-align: center;
+  color: #ffcc00;
+}
+
+.card {
+  background: yellow;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 50px;
+  width: 300px;
+  text-align: center;
+  color: #333;
+ height:700px;
+ 
+  
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #2a5298;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+
+.card p {
+  font-size: 14px;
+  line-height: 1.4;
+  background-color:lightyellow;
+  border-radius:14px;
+  padding:5px;
+}
+.NATOcalibers{
+   border:3px solid green; 
+   border-radius:7px;
+   padding:3px;
+   text-decoration:none;
+   color:black;
+   
+    
+}
+a:visited {
+  color: purple;
+}
+
+img {
+  opacity: 0.5;
+  transition: border-radius 900ms ease,transform 900ms ease,opacity 900ms ease;
+  border-radius: 10px;
+  
+
+}
+
+img:hover {
+  transform: scale(1.25);
+  transition: transform 200ms ease,border-radius 900ms ease,opacity 900ms ease;
+  opacity: 1;
+  border-radius: 40px;
+  
+}
